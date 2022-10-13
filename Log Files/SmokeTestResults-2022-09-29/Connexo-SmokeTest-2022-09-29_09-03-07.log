@@ -1,0 +1,36 @@
+09:03:07.746 [main] INFO  com.util.logs.Log - OnStart method Connexo_RegressionTest_Automation_Suite chrome
+09:03:13.897 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.util.logs.Log - Executng : TC001_NavigateToAlarmsPage
+09:03:15.276 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.util.logs.Log - Entering User Name
+09:03:16.866 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.util.logs.Log - Entering Password
+09:03:17.479 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.util.logs.Log - Clicking on Login button
+09:03:17.517 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.base.base.TestBase - clicking on the element Login
+09:03:22.155 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.util.logs.Log - Clicking on Menu button
+09:03:24.200 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.base.base.TestBase - clicking on the element  
+09:03:33.883 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.base.base.TestBase - clicking on the element Alarms overview
+09:03:35.500 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.util.logs.Log - Test case: TC001_NavigateToAlarmsPage PASSED
+09:03:36.067 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.util.logs.Log - Executng : TC002_ValidateAlarmStatusFilter
+09:03:36.821 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.base.base.TestBase - clicking on the element Clear all
+09:03:38.798 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.Workspace.pages.AlarmsSelectionPage - ClearAllButton
+09:03:38.820 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.base.base.TestBase - clicking on the element 
+09:03:40.439 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.base.base.TestBase - clicking on the element Created
+09:03:45.047 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.base.base.TestBase - Clicking on element : Apply
+09:04:01.209 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.util.logs.Log - Test case: TC002_ValidateAlarmStatusFilter FAILED
+09:04:01.384 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.util.logs.Log - Executng : TC003_ValidateAlarmWorkgroupFilter
+09:04:01.586 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.base.base.TestBase - clicking on the element Clear all
+09:04:03.208 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.Workspace.pages.AlarmsSelectionPage - ClearAllButton
+09:04:03.262 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.base.base.TestBase - clicking on the element 
+09:04:04.861 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.base.base.TestBase - clicking on the element Unassigned
+09:04:09.465 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.base.base.TestBase - Clicking on element : Apply
+09:04:11.093 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.base.base.TestBase - Expected Value : Unassigned matches with Actual Value : Unassigned
+09:04:11.094 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.util.logs.Log - Test case: TC003_ValidateAlarmWorkgroupFilter PASSED
+09:04:11.337 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.util.logs.Log - Executng : TC004_ValidateAlarmUserFilter
+09:04:11.463 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.base.base.TestBase - clicking on the element Clear all
+09:04:13.459 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.Workspace.pages.AlarmsSelectionPage - ClearAllButton
+09:04:13.479 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.base.base.TestBase - clicking on the element 
+09:04:15.093 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.base.base.TestBase - clicking on the element root
+09:04:20.141 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.base.base.TestBase - Clicking on element : Apply
+09:04:20.920 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.base.base.TestBase - Expected Value : root matches with Actual Value : root
+09:04:20.922 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.util.logs.Log - Test case: TC004_ValidateAlarmUserFilter PASSED
+09:04:21.156 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.base.base.TestBase - clicking on the element   
+09:04:23.285 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.base.base.TestBase - clicking on the element Logout
+09:04:24.926 [main] INFO  com.util.logs.Log - OnFinish method Connexo_RegressionTest_Automation_Suite chrome

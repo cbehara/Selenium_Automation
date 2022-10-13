@@ -1,0 +1,10 @@
+00:51:17.197 [main] INFO  com.util.logs.Log - OnStart method Connexo_RegressionTest_Automation_Suite chrome
+00:51:23.913 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.util.logs.Log - Executng : TC001_NavigateToAlarmsPage
+00:51:25.256 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.util.logs.Log - Entering User Name
+00:51:26.848 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.util.logs.Log - Entering Password
+00:51:27.444 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.util.logs.Log - Clicking on Login button
+00:51:27.477 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.base.base.TestBase - clicking on the element Login
+00:51:32.148 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.util.logs.Log - Clicking on Menu button
+00:51:38.468 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.base.base.TestBase - clicking on the element  
+00:51:40.068 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.util.logs.Log - Test case: TC001_NavigateToAlarmsPage PASSED
+00:51:40.919 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.util.logs.Log - Executng : TC012_ValidateBulkAction

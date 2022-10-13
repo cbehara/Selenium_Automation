@@ -1,0 +1,18 @@
+08:38:04.827 [main] INFO  com.util.logs.Log - OnStart method Connexo_RegressionTest_Automation_Suite chrome
+08:38:17.237 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.util.logs.Log - Executng : TC001_NavigateToAlarmsPage
+08:38:18.592 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.util.logs.Log - Entering User Name
+08:38:20.170 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.util.logs.Log - Entering Password
+08:38:20.752 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.util.logs.Log - Clicking on Login button
+08:38:20.786 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.base.base.TestBase - clicking on the element Login
+08:38:25.650 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.util.logs.Log - Clicking on Menu button
+08:38:27.706 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.base.base.TestBase - clicking on the element  
+08:38:59.325 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.util.logs.Log - Test case: TC001_NavigateToAlarmsPage FAILED
+08:38:59.803 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.util.logs.Log - Executng : TC002_ValidateAlarmStatusFilter
+08:39:15.663 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.util.logs.Log - Test case: TC002_ValidateAlarmStatusFilter FAILED
+08:39:15.864 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.util.logs.Log - Executng : TC003_ValidateAlarmWorkgroupFilter
+08:39:30.995 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.util.logs.Log - Test case: TC003_ValidateAlarmWorkgroupFilter FAILED
+08:39:31.185 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.util.logs.Log - Executng : TC004_ValidateAlarmUserFilter
+08:39:46.310 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.util.logs.Log - Test case: TC004_ValidateAlarmUserFilter FAILED
+08:39:46.514 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.base.base.TestBase - clicking on the element   
+08:39:48.623 [TestNG-test=Connexo_RegressionTest_Automation_Suite chrome-1] INFO  com.base.base.TestBase - clicking on the element Logout
+08:39:50.268 [main] INFO  com.util.logs.Log - OnFinish method Connexo_RegressionTest_Automation_Suite chrome

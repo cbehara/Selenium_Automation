@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Connexo_RegressionTest_Automation_Suite</th></tr>
+<tr><td><a href="#t0">Connexo_RegressionTest_Automation_Suite chrome</a></td><td class="num">9</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">141,399</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Connexo_RegressionTest_Automation_Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Connexo_RegressionTest_Automation_Suite chrome &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.Workspace.testcases.MultiSence_WorkSpace_Alarms_Myworkgroupsalarms</td><td><a href="#m0">TC005_ValidateAlarmDuedateFilter</a></td><td rowspan="1">1664423242491</td><td rowspan="1">24072</td></tr><tr><th colspan="4">Connexo_RegressionTest_Automation_Suite chrome &#8212; passed</th></tr><tr class="passedeven"><td rowspan="9">com.Workspace.testcases.MultiSence_WorkSpace_Alarms_Myworkgroupsalarms</td><td><a href="#m1">TC001_NavigateToAlarmsPage</a></td><td rowspan="1">1664423190932</td><td rowspan="1">28177</td></tr><tr class="passedeven"><td><a href="#m2">TC002_ValidateAlarmIDFilters</a></td><td rowspan="1">1664423219674</td><td rowspan="1">6555</td></tr><tr class="passedeven"><td><a href="#m3">TC003_ValidateAlarmDeviceFilter</a></td><td rowspan="1">1664423226445</td><td rowspan="1">8002</td></tr><tr class="passedeven"><td><a href="#m4">TC004_ValidateAlarmDeviceGroupFilter</a></td><td rowspan="1">1664423234630</td><td rowspan="1">7660</td></tr><tr class="passedeven"><td><a href="#m5">TC006_ValidateAlarmStatusFilter</a></td><td rowspan="1">1664423266731</td><td rowspan="1">9055</td></tr><tr class="passedeven"><td><a href="#m6">TC007_ValidateAlarmClearedFilter</a></td><td rowspan="1">1664423276010</td><td rowspan="1">8828</td></tr><tr class="passedeven"><td><a href="#m7">TC008_ValidateAlarmWorkgroupFilter</a></td><td rowspan="1">1664423285035</td><td rowspan="1">8761</td></tr><tr class="passedeven"><td><a href="#m8">TC009_ValidateAlarmUserFilter</a></td><td rowspan="1">1664423294017</td><td rowspan="1">19442</td></tr><tr class="passedeven"><td><a href="#m9">TC010_ValidateAlarmReasonFilter</a></td><td rowspan="1">1664423313667</td><td rowspan="1">7326</td></tr></tbody>
+</table>
+<h2>Connexo_RegressionTest_Automation_Suite chrome</h2><h3 id="m0">com.Workspace.testcases.MultiSence_WorkSpace_Alarms_Myworkgroupsalarms#TC005_ValidateAlarmDuedateFilter</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//*[@class=&apos;x-grid-cell x-grid-td x-grid-cell-headerId-alarms-grid-due-date&apos;])[1]&quot;}
+  (Session info: chrome=106.0.5249.62)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;AVDCINDED-7&apos;, ip: &apos;10.72.85.178&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [117b5f28ec05dc8f0d4dbf0f94936082, findElement {using=xpath, value=(//*[@class=&apos;x-grid-cell x-grid-td x-grid-cell-headerId-alarms-grid-due-date&apos;])[1]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 106.0.5249.62, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\H524070\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55069}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55069/devtoo..., se:cdpVersion: 106.0.5249.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 117b5f28ec05dc8f0d4dbf0f94936082
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at com.Workspace.pages.AlarmsSelectionPage.DueDateValidation(AlarmsSelectionPage.java:316)
+	at com.Workspace.pages.AlarmsSelectionPage.selectFilterAndValidateValue(AlarmsSelectionPage.java:114)
+	at com.Workspace.testcases.MultiSence_WorkSpace_Alarms_Myworkgroupsalarms.TC005_ValidateAlarmDuedateFilter(MultiSence_WorkSpace_Alarms_Myworkgroupsalarms.java:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.Workspace.testcases.MultiSence_WorkSpace_Alarms_Myworkgroupsalarms#TC001_NavigateToAlarmsPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.Workspace.testcases.MultiSence_WorkSpace_Alarms_Myworkgroupsalarms#TC002_ValidateAlarmIDFilters</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.Workspace.testcases.MultiSence_WorkSpace_Alarms_Myworkgroupsalarms#TC003_ValidateAlarmDeviceFilter</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.Workspace.testcases.MultiSence_WorkSpace_Alarms_Myworkgroupsalarms#TC004_ValidateAlarmDeviceGroupFilter</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.Workspace.testcases.MultiSence_WorkSpace_Alarms_Myworkgroupsalarms#TC006_ValidateAlarmStatusFilter</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.Workspace.testcases.MultiSence_WorkSpace_Alarms_Myworkgroupsalarms#TC007_ValidateAlarmClearedFilter</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.Workspace.testcases.MultiSence_WorkSpace_Alarms_Myworkgroupsalarms#TC008_ValidateAlarmWorkgroupFilter</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.Workspace.testcases.MultiSence_WorkSpace_Alarms_Myworkgroupsalarms#TC009_ValidateAlarmUserFilter</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.Workspace.testcases.MultiSence_WorkSpace_Alarms_Myworkgroupsalarms#TC010_ValidateAlarmReasonFilter</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

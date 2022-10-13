@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Connexo_SmokeTest_Automation_Suite" verbose="5" thread-count="2" data-provider-thread-count="2" parallel="classes">
+	<test name="Connexo_SmokeTest_Automation_Suite chrome">		
+  	<parameter name="strBrowserName" value="chrome"/>
+    <classes>
+      <class name="com.ConnexoAdmin.testcases.Admin_DataPurgeTest"/>
+		<class name="com.ConnexoAdmin.testcases.ApplicationServerCreationTest"/>
+		<class name="com.ConnexoAdmin.testcases.ApplicationServersTest"/>
+		<class name="com.ConnexoAdmin.testcases.CalendarsPreviewTest"/>
+		<class name="com.ConnexoAdmin.testcases.CalendarsTest"/>
+		<class name="com.ConnexoAdmin.testcases.CertificateFiltersApplyTest"/>
+		<class name="com.ConnexoAdmin.testcases.CertificateFiltersTest"/>
+		<class name="com.ConnexoAdmin.testcases.CertificatesTest"/>
+		<class name="com.ConnexoAdmin.testcases.CertificateViewTest"/>
+		<class name="com.ConnexoAdmin.testcases.CustomAttributesTest"/>
+		<class name="com.ConnexoAdmin.testcases.ImportHistoryTest"/>
+		<class name="com.ConnexoAdmin.testcases.ImportServicesTest"/>
+		<class name="com.ConnexoAdmin.testcases.KeypairsTest"/>
+		<class name="com.ConnexoAdmin.testcases.MessageQueuesOverviewTest"/>
+		<class name="com.ConnexoAdmin.testcases.MessageQueuesTest"/>
+		<class name="com.ConnexoAdmin.testcases.ProcessesTest"/>
+		<class name="com.ConnexoAdmin.testcases.ReadingTypesTest"/>
+		<class name="com.ConnexoAdmin.testcases.RelativePeriodTest"/>
+		<class name="com.ConnexoAdmin.testcases.RoleAccessTest"/>
+		<class name="com.ConnexoAdmin.testcases.RolesTest"/>
+		<class name="com.ConnexoAdmin.testcases.ServiceCallTypeTest"/>
+		<class name="com.ConnexoAdmin.testcases.TaskOverViewFiltersTest"/>
+		<class name="com.ConnexoAdmin.testcases.TaskOverViewTest"/>
+		<class name="com.ConnexoAdmin.testcases.UploadFileForImportTest"/>
+		<class name="com.ConnexoAdmin.testcases.UserCreationTest"/>
+		<class name="com.ConnexoAdmin.testcases.UserDirectoriesTest"/>
+		<class name="com.ConnexoAdmin.testcases.UserSecuritySettings"/>
+		<class name="com.ConnexoAdmin.testcases.UserTest"/>
+		<class name="com.ConnexoAdmin.testcases.WebServiceEndpointsTest"/>
+		<class name="com.ConnexoAdmin.testcases.WorkGroupsEditTest"/>
+		<class name="com.ConnexoAdmin.testcases.WorkGroupsTest"/>
+    </classes>
+  </test> <!-- Test -->
+   	<listeners>		
+		<listener class-name="com.ExtentReportListener.TestListener"/>
+	</listeners>	
+</suite> <!-- Suite -->

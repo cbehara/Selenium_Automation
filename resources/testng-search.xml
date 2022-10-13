@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Connexo_SmokeTest_Automation_Suite" verbose="5" thread-count="2" data-provider-thread-count="2" parallel="classes">
+	<test name="Connexo_SmokeTest_Automation_Suite chrome">		
+  	<parameter name="strBrowserName" value="chrome"/>
+    <classes>
+		<class name="com.DevicesAndSearch.testcases.MultisenseAdvanceSearchTest"/>
+		<class name="com.DevicesAndSearch.testcases.MultisenseBasicSearchTest"/>
+    </classes>
+  </test> <!-- Test -->
+   	<listeners>		
+		<listener class-name="com.ExtentReportListener.TestListener"/>
+	</listeners>	
+</suite> <!-- Suite -->

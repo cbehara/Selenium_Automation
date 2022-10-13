@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Connexo_RegressionTest_Automation_Suite" verbose="5" thread-count="2" data-provider-thread-count="5" parallel="classes">
+	<test name="Connexo_RegressionTest_Automation_Suite chrome">		
+  	<parameter name="strBrowserName" value="chrome"/>
+    <classes>
+       <class name="com.ConnexoAdmin.testcases.Admin_DataPurgeTest"/>
+		<class name="com.ConnexoAdmin.testcases.ApplicationServerCreationTest"/>
+		<class name="com.ConnexoAdmin.testcases.ApplicationServersTest"/>
+		<class name="com.ConnexoAdmin.testcases.CalendarsPreviewTest"/>
+		<class name="com.ConnexoAdmin.testcases.CalendarsTest"/>
+		<class name="com.ConnexoAdmin.testcases.CertificateFiltersApplyTest"/>
+		<class name="com.ConnexoAdmin.testcases.CertificateFiltersTest"/>
+		<class name="com.ConnexoAdmin.testcases.CertificatesTest"/>
+		<class name="com.ConnexoAdmin.testcases.CertificateViewTest"/>
+		<class name="com.ConnexoAdmin.testcases.CustomAttributesTest"/>
+		<class name="com.ConnexoAdmin.testcases.ImportHistoryTest"/>
+		<class name="com.ConnexoAdmin.testcases.ImportServicesTest"/>
+		<class name="com.ConnexoAdmin.testcases.KeypairsTest"/>
+		<class name="com.ConnexoAdmin.testcases.MessageQueuesOverviewTest"/>
+		<class name="com.ConnexoAdmin.testcases.MessageQueuesTest"/>
+		<class name="com.ConnexoAdmin.testcases.ProcessesTest"/>
+		<class name="com.ConnexoAdmin.testcases.ReadingTypesTest"/>
+		<class name="com.ConnexoAdmin.testcases.RelativePeriodTest"/>
+		<class name="com.ConnexoAdmin.testcases.RoleAccessTest"/>
+		<class name="com.ConnexoAdmin.testcases.RolesTest"/>
+		<class name="com.ConnexoAdmin.testcases.ServiceCallTypeTest"/>
+		<class name="com.ConnexoAdmin.testcases.TaskOverViewFiltersTest"/>
+		<class name="com.ConnexoAdmin.testcases.TaskOverViewTest"/>
+		<class name="com.ConnexoAdmin.testcases.UploadFileForImportTest"/>
+		<class name="com.ConnexoAdmin.testcases.UserCreationTest"/>
+		<class name="com.ConnexoAdmin.testcases.UserDirectoriesTest"/>
+		<class name="com.ConnexoAdmin.testcases.UserSecuritySettings"/>
+		<class name="com.ConnexoAdmin.testcases.UserTest"/>
+		<class name="com.ConnexoAdmin.testcases.WebServiceEndpointsTest"/>
+		<class name="com.ConnexoAdmin.testcases.WorkGroupsEditTest"/>
+		<class name="com.ConnexoAdmin.testcases.WorkGroupsTest"/>
+		<class name="com.DevicesAndSearch.testcases.DeviceReportsTest"/>
+		<class name="com.ConnexoAdmin.testcases.WSEPTest"/>
+		<class name="com.Dashboard.testcases.DashboardTest"/>
+		<class name="com.DevicesAndSearch.testcases.DeviceLifeCycleManagementAddDeviceTest"/>
+		<class name="com.DevicesAndSearch.testcases.DevicesTest"/>
+		<class name="com.DevicesAndSearch.testcases.MultisenseAdvanceSearchTest"/>
+		<class name="com.DevicesAndSearch.testcases.MultisenseBasicSearchTest"/>
+		<class name="com.DevicesAndSearch.testcases.MultisenseSearchTest"/>
+		<class name="com.Workspace.testcases.AlarmsSelectionTest"/>
+		<class name="com.Workspace.testcases.AuditTrailTest"/>
+		<class name="com.Workspace.testcases.CommandWorkspaceTest"/>
+		<class name="com.Workspace.testcases.CommunicationWorkspaceTest"/>
+		<class name="com.Workspace.testcases.ConnectionWorkspaceTest"/>
+		<class name="com.Workspace.testcases.DataCollectionIssuesTest"/>
+		<class name="com.Workspace.testcases.DataCollectionMyOpenIssuesTest"/>
+		<class name="com.Workspace.testcases.DataCollectionMyWorkGroupIssuesTest"/>
+		<class name="com.Workspace.testcases.DataQualityTest"/>
+		<class name="com.Workspace.testcases.DataValidationIssuesTest"/>
+		<class name="com.Workspace.testcases.FirmwareCampaignTest"/>
+		<class name="com.Workspace.testcases.IssuesSelectionTest"/>
+		<class name="com.Workspace.testcases.ProcessesTest"/>
+		<class name="com.Workspace.testcases.ToUCalendarCampaignsTest"/>
+		<class name="com.Workspace.testcases.DataValidationIssuesTest"/>
+		<class name="com.Workspace.testcases.WebservicesTest"/>
+		<class name="com.Workspace.testcases.Workspace_IssuesPageIssueOverviewTest"/>
+		<class name="com.Workspace.testcases.Workspace_IssuesPageIssueSearchTest"/>
+		<class name="com.Workspace.testcases.Workspace_IssuesStartProcess"/>
+		<class name="com.Workspace.testcases.WorkspaceDataexchangeTest"/>
+		<class name="com.Workspace.testcases.WorkspaceDiviceLifecycleIssueTest"/>
+		<class name="com.Workspace.testcases.WorkspaceIssueCreateTest"/>
+		<class name="com.Workspace.testcases.WorkspaceService_MyOpenIssuesTest"/>
+		<class name="com.Workspace.testcases.WorkspaceServiceCallTest"/>
+		<class name="com.multisense.testcases.AlarmCreationRulesTest"/>
+		<class name="com.multisense.testcases.CommandLimitationRulesTest"/>
+		<class name="com.multisense.testcases.CommunicationPortPoolsTest"/>
+		<class name="com.multisense.testcases.CommunicationProtocolTest"/>
+		<class name="com.multisense.testcases.CommunicationServersTest"/>
+		<class name="com.multisense.testcases.CommunicationSettingsTest"/>
+		<class name="com.multisense.testcases.CommunicationTasksTest"/>
+		<class name="com.multisense.testcases.DataCollectionKPIsTest"/>
+		<class name="com.multisense.testcases.DataExchangeTest"/>
+		<class name="com.multisense.testcases.DataQualityKPISTest"/>
+		<class name="com.multisense.testcases.DeviceLifeCycleTest"/>
+		<class name="com.multisense.testcases.DeviceTypeTest"/>
+		<class name="com.multisense.testcases.EstimateRuleSetTest"/>
+		<class name="com.multisense.testcases.EstimateTaskTest"/>
+		<class name="com.multisense.testcases.IssueCreationTest"/>
+		<class name="com.multisense.testcases.LoadProfileTypesTest"/>
+		<class name="com.multisense.testcases.LogbookTypesTest"/>
+		<class name="com.multisense.testcases.MobileCommunicationServerTest"/>
+		<class name="com.multisense.testcases.RegistereddevicesKPIsTest"/>
+		<class name="com.multisense.testcases.RegistergroupTest"/>
+		<class name="com.multisense.testcases.RegisterTypeTest"/>
+		<class name="com.multisense.testcases.SecurityAccessorsTest"/>
+		<class name="com.multisense.testcases.SharedCommunicationSchedulesTest"/>
+		<class name="com.multisense.testcases.TaskManagmentTest"/>
+		<class name="com.multisense.testcases.ValidationTaskTest"/>
+		<class name="com.multisense.testcases.ValidatioRuleSetTest"/>
+		<class name="com.multisense.testcases.ZoneManagementTest"/>
+    </classes>
+  </test> <!-- Test -->
+   	<listeners>		
+		<listener class-name="com.ExtentReportListener.TestListener"/>
+	</listeners>	
+</suite> <!-- Suite -->

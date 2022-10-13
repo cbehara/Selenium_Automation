@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" data-provider-thread-count="5" name="Failed suite [Connexo_RegressionTest_Automation_Suite]" guice-stage="DEVELOPMENT" verbose="5">
+  <listeners>
+    <listener class-name="com.ExtentReportListener.TestListener"/>
+  </listeners>
+  <test thread-count="5" parallel="classes" name="Connexo_RegressionTest_Automation_Suite chrome(failed)" verbose="5">
+    <parameter name="strBrowserName" value="chrome"/>
+    <classes>
+      <class name="com.Workspace.testcases.MultiSence_WorkSpace_Alarms_Myworkgroupsalarms">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TC005_ValidateAlarmDuedateFilter"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- com.Workspace.testcases.MultiSence_WorkSpace_Alarms_Myworkgroupsalarms -->
+    </classes>
+  </test> <!-- Connexo_RegressionTest_Automation_Suite chrome(failed) -->
+</suite> <!-- Failed suite [Connexo_RegressionTest_Automation_Suite] -->

@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Connexo_RegressionTest_Automation_Suite" class="navigator-link">
+              <span class="suite-name border-failed">Connexo_RegressionTest_Automation_Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Connexo_RegressionTest_Automation_Suite" class="navigator-link ">
+                    <span>C:\Automation\Project\Project1\ms_regressiontest\ConnexoMultiSense-Regression-11.0\resources\testng-Regression.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Connexo_RegressionTest_Automation_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Connexo_RegressionTest_Automation_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Connexo_RegressionTest_Automation_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Connexo_RegressionTest_Automation_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Connexo_RegressionTest_Automation_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Connexo_RegressionTest_Automation_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods, 1 failed,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Connexo_RegressionTest_Automation_Suite" class="hide-methods failed suite-Connexo_RegressionTest_Automation_Suite"> (hide)</a> <!-- hide-methods failed suite-Connexo_RegressionTest_Automation_Suite -->
+                      <a href="#" panel-name="suite-Connexo_RegressionTest_Automation_Suite" class="show-methods failed suite-Connexo_RegressionTest_Automation_Suite"> (show)</a> <!-- show-methods failed suite-Connexo_RegressionTest_Automation_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Connexo_RegressionTest_Automation_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Connexo_RegressionTest_Automation_Suite" title="com.Workspace.testcases.MultiSence_WorkSpace_Alarms_Myworkgroupsalarms" class="method navigator-link" hash-for-method="TC005_ValidateAlarmDuedateFilter">TC005_ValidateAlarmDuedateFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Connexo_RegressionTest_Automation_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Connexo_RegressionTest_Automation_Suite" class="hide-methods passed suite-Connexo_RegressionTest_Automation_Suite"> (hide)</a> <!-- hide-methods passed suite-Connexo_RegressionTest_Automation_Suite -->
+                      <a href="#" panel-name="suite-Connexo_RegressionTest_Automation_Suite" class="show-methods passed suite-Connexo_RegressionTest_Automation_Suite"> (show)</a> <!-- show-methods passed suite-Connexo_RegressionTest_Automation_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Connexo_RegressionTest_Automation_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Connexo_RegressionTest_Automation_Suite" title="com.Workspace.testcases.MultiSence_WorkSpace_Alarms_Myworkgroupsalarms" class="method navigator-link" hash-for-method="TC001_NavigateToAlarmsPage">TC001_NavigateToAlarmsPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Connexo_RegressionTest_Automation_Suite" title="com.Workspace.testcases.MultiSence_WorkSpace_Alarms_Myworkgroupsalarms" class="method navigator-link" hash-for-method="TC002_ValidateAlarmIDFilters">TC002_ValidateAlarmIDFilters</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Connexo_RegressionTest_Automation_Suite" title="com.Workspace.testcases.MultiSence_WorkSpace_Alarms_Myworkgroupsalarms" class="method navigator-link" hash-for-method="TC003_ValidateAlarmDeviceFilter">TC003_ValidateAlarmDeviceFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Connexo_RegressionTest_Automation_Suite" title="com.Workspace.testcases.MultiSence_WorkSpace_Alarms_Myworkgroupsalarms" class="method navigator-link" hash-for-method="TC004_ValidateAlarmDeviceGroupFilter">TC004_ValidateAlarmDeviceGroupFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Connexo_RegressionTest_Automation_Suite" title="com.Workspace.testcases.MultiSence_WorkSpace_Alarms_Myworkgroupsalarms" class="method navigator-link" hash-for-method="TC006_ValidateAlarmStatusFilter">TC006_ValidateAlarmStatusFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Connexo_RegressionTest_Automation_Suite" title="com.Workspace.testcases.MultiSence_WorkSpace_Alarms_Myworkgroupsalarms" class="method navigator-link" hash-for-method="TC007_ValidateAlarmClearedFilter">TC007_ValidateAlarmClearedFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Connexo_RegressionTest_Automation_Suite" title="com.Workspace.testcases.MultiSence_WorkSpace_Alarms_Myworkgroupsalarms" class="method navigator-link" hash-for-method="TC008_ValidateAlarmWorkgroupFilter">TC008_ValidateAlarmWorkgroupFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Connexo_RegressionTest_Automation_Suite" title="com.Workspace.testcases.MultiSence_WorkSpace_Alarms_Myworkgroupsalarms" class="method navigator-link" hash-for-method="TC009_ValidateAlarmUserFilter">TC009_ValidateAlarmUserFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Connexo_RegressionTest_Automation_Suite" title="com.Workspace.testcases.MultiSence_WorkSpace_Alarms_Myworkgroupsalarms" class="method navigator-link" hash-for-method="TC010_ValidateAlarmReasonFilter">TC010_ValidateAlarmReasonFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Connexo_RegressionTest_Automation_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Connexo_RegressionTest_Automation_Suite" class="panel Connexo_RegressionTest_Automation_Suite">
+          <div class="suite-Connexo_RegressionTest_Automation_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.Workspace.testcases.MultiSence_WorkSpace_Alarms_Myworkgroupsalarms</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC005_ValidateAlarmDuedateFilter">
+                  </a> <!-- TC005_ValidateAlarmDuedateFilter -->
+                  <span class="method-name">TC005_ValidateAlarmDuedateFilter</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//*[@class=&apos;x-grid-cell x-grid-td x-grid-cell-headerId-alarms-grid-due-date&apos;])[1]&quot;}
+  (Session info: chrome=106.0.5249.62)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;AVDCINDED-7&apos;, ip: &apos;10.72.85.178&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [117b5f28ec05dc8f0d4dbf0f94936082, findElement {using=xpath, value=(//*[@class=&apos;x-grid-cell x-grid-td x-grid-cell-headerId-alarms-grid-due-date&apos;])[1]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 106.0.5249.62, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\H524070\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55069}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55069/devtoo..., se:cdpVersion: 106.0.5249.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 117b5f28ec05dc8f0d4dbf0f94936082
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at com.Workspace.pages.AlarmsSelectionPage.DueDateValidation(AlarmsSelectionPage.java:316)
+	at com.Workspace.pages.AlarmsSelectionPage.selectFilterAndValidateValue(AlarmsSelectionPage.java:114)
+	at com.Workspace.testcases.MultiSence_WorkSpace_Alarms_Myworkgroupsalarms.TC005_ValidateAlarmDuedateFilter(MultiSence_WorkSpace_Alarms_Myworkgroupsalarms.java:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Connexo_RegressionTest_Automation_Suite-class-failed -->
+          <div class="suite-Connexo_RegressionTest_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Workspace.testcases.MultiSence_WorkSpace_Alarms_Myworkgroupsalarms</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC001_NavigateToAlarmsPage">
+                  </a> <!-- TC001_NavigateToAlarmsPage -->
+                  <span class="method-name">TC001_NavigateToAlarmsPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC002_ValidateAlarmIDFilters">
+                  </a> <!-- TC002_ValidateAlarmIDFilters -->
+                  <span class="method-name">TC002_ValidateAlarmIDFilters</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC003_ValidateAlarmDeviceFilter">
+                  </a> <!-- TC003_ValidateAlarmDeviceFilter -->
+                  <span class="method-name">TC003_ValidateAlarmDeviceFilter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC004_ValidateAlarmDeviceGroupFilter">
+                  </a> <!-- TC004_ValidateAlarmDeviceGroupFilter -->
+                  <span class="method-name">TC004_ValidateAlarmDeviceGroupFilter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC006_ValidateAlarmStatusFilter">
+                  </a> <!-- TC006_ValidateAlarmStatusFilter -->
+                  <span class="method-name">TC006_ValidateAlarmStatusFilter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC007_ValidateAlarmClearedFilter">
+                  </a> <!-- TC007_ValidateAlarmClearedFilter -->
+                  <span class="method-name">TC007_ValidateAlarmClearedFilter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC008_ValidateAlarmWorkgroupFilter">
+                  </a> <!-- TC008_ValidateAlarmWorkgroupFilter -->
+                  <span class="method-name">TC008_ValidateAlarmWorkgroupFilter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC009_ValidateAlarmUserFilter">
+                  </a> <!-- TC009_ValidateAlarmUserFilter -->
+                  <span class="method-name">TC009_ValidateAlarmUserFilter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC010_ValidateAlarmReasonFilter">
+                  </a> <!-- TC010_ValidateAlarmReasonFilter -->
+                  <span class="method-name">TC010_ValidateAlarmReasonFilter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Connexo_RegressionTest_Automation_Suite-class-passed -->
+        </div> <!-- panel Connexo_RegressionTest_Automation_Suite -->
+        <div panel-name="test-xml-Connexo_RegressionTest_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Automation\Project\Project1\ms_regressiontest\ConnexoMultiSense-Regression-11.0\resources\testng-Regression.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite parallel=&quot;classes&quot; data-provider-thread-count=&quot;5&quot; name=&quot;Connexo_RegressionTest_Automation_Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;5&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.ExtentReportListener.TestListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;classes&quot; name=&quot;Connexo_RegressionTest_Automation_Suite chrome&quot; verbose=&quot;5&quot;&gt;
+    &lt;parameter name=&quot;strBrowserName&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.Workspace.testcases.MultiSence_WorkSpace_Alarms_Myworkgroupsalarms&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Connexo_RegressionTest_Automation_Suite chrome --&gt;
+&lt;/suite&gt; &lt;!-- Connexo_RegressionTest_Automation_Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Connexo_RegressionTest_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Connexo_RegressionTest_Automation_Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Connexo_RegressionTest_Automation_Suite chrome (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Connexo_RegressionTest_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Connexo_RegressionTest_Automation_Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Connexo_RegressionTest_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Connexo_RegressionTest_Automation_Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Connexo_RegressionTest_Automation_Suite');
+function tableData_Connexo_RegressionTest_Automation_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TC001_NavigateToAlarmsPage')
+data.setCell(0, 2, 'com.Workspace.testcases.MultiSence_WorkSpace_Alarms_Myworkgroupsalarms')
+data.setCell(0, 3, 28177);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TC005_ValidateAlarmDuedateFilter')
+data.setCell(1, 2, 'com.Workspace.testcases.MultiSence_WorkSpace_Alarms_Myworkgroupsalarms')
+data.setCell(1, 3, 24072);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TC009_ValidateAlarmUserFilter')
+data.setCell(2, 2, 'com.Workspace.testcases.MultiSence_WorkSpace_Alarms_Myworkgroupsalarms')
+data.setCell(2, 3, 19442);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TC006_ValidateAlarmStatusFilter')
+data.setCell(3, 2, 'com.Workspace.testcases.MultiSence_WorkSpace_Alarms_Myworkgroupsalarms')
+data.setCell(3, 3, 9055);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TC007_ValidateAlarmClearedFilter')
+data.setCell(4, 2, 'com.Workspace.testcases.MultiSence_WorkSpace_Alarms_Myworkgroupsalarms')
+data.setCell(4, 3, 8828);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TC008_ValidateAlarmWorkgroupFilter')
+data.setCell(5, 2, 'com.Workspace.testcases.MultiSence_WorkSpace_Alarms_Myworkgroupsalarms')
+data.setCell(5, 3, 8761);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TC003_ValidateAlarmDeviceFilter')
+data.setCell(6, 2, 'com.Workspace.testcases.MultiSence_WorkSpace_Alarms_Myworkgroupsalarms')
+data.setCell(6, 3, 8002);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TC004_ValidateAlarmDeviceGroupFilter')
+data.setCell(7, 2, 'com.Workspace.testcases.MultiSence_WorkSpace_Alarms_Myworkgroupsalarms')
+data.setCell(7, 3, 7660);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TC010_ValidateAlarmReasonFilter')
+data.setCell(8, 2, 'com.Workspace.testcases.MultiSence_WorkSpace_Alarms_Myworkgroupsalarms')
+data.setCell(8, 3, 7326);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'TC002_ValidateAlarmIDFilters')
+data.setCell(9, 2, 'com.Workspace.testcases.MultiSence_WorkSpace_Alarms_Myworkgroupsalarms')
+data.setCell(9, 3, 6555);
+window.suiteTableData['Connexo_RegressionTest_Automation_Suite']= { tableData: data, tableDiv: 'times-div-Connexo_RegressionTest_Automation_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Connexo_RegressionTest_Automation_Suite">
+              </div> <!-- times-div-Connexo_RegressionTest_Automation_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Connexo_RegressionTest_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Connexo_RegressionTest_Automation_Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Connexo_RegressionTest_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Connexo_RegressionTest_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Workspace.testcases.MultiSence_WorkSpace_Alarms_Myworkgroupsalarms</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialization(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TC001_NavigateToAlarmsPage</span>
+                <span class="method-start">7002 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC002_ValidateAlarmIDFilters</span>
+                <span class="method-start">35744 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC003_ValidateAlarmDeviceFilter</span>
+                <span class="method-start">42515 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC004_ValidateAlarmDeviceGroupFilter</span>
+                <span class="method-start">50700 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC005_ValidateAlarmDuedateFilter</span>
+                <span class="method-start">58561 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC006_ValidateAlarmStatusFilter</span>
+                <span class="method-start">82801 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC007_ValidateAlarmClearedFilter</span>
+                <span class="method-start">92080 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC008_ValidateAlarmWorkgroupFilter</span>
+                <span class="method-start">101105 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC009_ValidateAlarmUserFilter</span>
+                <span class="method-start">110087 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC010_ValidateAlarmReasonFilter</span>
+                <span class="method-start">129737 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">137292 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

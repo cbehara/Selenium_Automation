@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [Connexo_RegressionTest_Automation_Suite]" parallel="classes" data-provider-thread-count="5">
+  <listeners>
+    <listener class-name="com.ExtentReportListener.TestListener"/>
+  </listeners>
+  <test thread-count="2" verbose="5" name="Connexo_RegressionTest_Automation_Suite chrome(failed)" parallel="classes">
+    <parameter name="strBrowserName" value="chrome"/>
+    <classes>
+          <class name="com.Workspace.testcases.DataCollectionIssuesTest"/>
+    
+      <!--class name="com.ConnexoAdmin.testcases.ReadingTypesTest"/>
+      <class name="com.ConnexoAdmin.testcases.WSEPTest"/>
+      <class name="com.ConnexoAdmin.testcases.WebServiceEndpointsTest"/
+      <class name="com.ConnexoAdmin.testcases.UserSecuritySettings"/>
+      <class name="com.ConnexoAdmin.testcases.ProcessesTest"/>
+      <class name="com.ConnexoAdmin.testcases.WSEPTest"/>
+      <class name="com.ConnexoAdmin.testcases.CertificatesTest"/>
+      <class name="com.ConnexoAdmin.testcases.TaskOverViewFiltersTest"/>
+      <class name="com.ConnexoAdmin.testcases.UploadFileForImportTest"/
+      <class name="com.ConnexoAdmin.testcases.WebServiceEndpointsTest"/>
+      <class name="com.Workspace.testcases.FirmwareCampaignTest"/>
+      <class name="com.multisense.testcases.DeviceTypeTest"/>
+      <class name="com.DevicesAndSearch.testcases.MultisenseSearchTest"/>
+      <class name="com.multisense.testcases.DataExchangeTest"/>
+      <class name="com.multisense.testcases.CommunicationSettingsTest"/>
+      <class name="com.Workspace.testcases.IssuesSelectionTest"/>
+      <class name="com.DevicesAndSearch.testcases.DeviceLifeCycleManagementAddDeviceTest"/>
+      <class name="com.Workspace.testcases.AlarmsSelectionTest"/>
+      <class name="com.Workspace.testcases.ToUCalendarCampaignsTest"/>
+      <class name="com.multisense.testcases.RegisterTypeTest"/>
+      <class name="com.Dashboard.testcases.DashboardTest"/>
+      <class name="com.multisense.testcases.CommandLimitationRulesTest"/-->
+    </classes>
+  </test> <!-- Connexo_RegressionTest_Automation_Suite chrome(failed) -->
+</suite> <!-- Failed suite [Connexo_RegressionTest_Automation_Suite] -->

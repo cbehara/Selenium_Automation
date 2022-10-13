@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO">
+
+<Properties>
+<Property name="basePath">./Log Files</Property>
+</Properties>
+ 
+  <Appenders>
+
+     <RollingFile 
+     	name="File" 
+     	fileName="${basePath}/SmokeTestResults-${date:yyyy-MM-dd}/Connexo-SmokeTest-${date:yyyy-MM-dd_HH-mm-ss}.log" 
+     	filePattern="${basePath}/SmokeTestResults-${date:yyyy-MM-dd}/Connexo-SmokeTest_%d{yyyy-MM-dd_HH:mm:ss}.log">
+     	<PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>     		
+     	<SizeBasedTriggeringPolicy size="10 MB" />
+     </RollingFile>
+
+    <Console name="Console" target="SYSTEM_OUT">
+      <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+    </Console>
+
+  </Appenders>
+  
+  <Loggers>
+    <Root level="debug">
+      <AppenderRef ref="File" level="info"/>
+    </Root>
+  
+  </Loggers>
+
+</Configuration>

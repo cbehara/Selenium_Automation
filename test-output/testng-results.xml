@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="9" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-29T09:16:23 IST" name="Connexo_RegressionTest_Automation_Suite" finished-at="2022-09-29T09:18:45 IST" duration-ms="141399">
+    <groups>
+    </groups>
+    <test started-at="2022-09-29T09:16:23 IST" name="Connexo_RegressionTest_Automation_Suite chrome" finished-at="2022-09-29T09:18:45 IST" duration-ms="141399">
+      <class name="com.Workspace.testcases.MultiSence_WorkSpace_Alarms_Myworkgroupsalarms">
+        <test-method is-config="true" signature="initialization(java.lang.String)[pri:0, instance:com.Workspace.testcases.MultiSence_WorkSpace_Alarms_Myworkgroupsalarms@6256ac4f]" started-at="2022-09-29T09:16:23 IST" name="initialization" finished-at="2022-09-29T09:16:30 IST" duration-ms="6990" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="TC001_NavigateToAlarmsPage()[pri:0, instance:com.Workspace.testcases.MultiSence_WorkSpace_Alarms_Myworkgroupsalarms@6256ac4f]" started-at="2022-09-29T09:16:30 IST" name="TC001_NavigateToAlarmsPage" finished-at="2022-09-29T09:16:59 IST" duration-ms="28177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC001_NavigateToAlarmsPage -->
+        <test-method signature="TC002_ValidateAlarmIDFilters()[pri:1, instance:com.Workspace.testcases.MultiSence_WorkSpace_Alarms_Myworkgroupsalarms@6256ac4f]" started-at="2022-09-29T09:16:59 IST" name="TC002_ValidateAlarmIDFilters" finished-at="2022-09-29T09:17:06 IST" duration-ms="6555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC002_ValidateAlarmIDFilters -->
+        <test-method signature="TC003_ValidateAlarmDeviceFilter()[pri:2, instance:com.Workspace.testcases.MultiSence_WorkSpace_Alarms_Myworkgroupsalarms@6256ac4f]" started-at="2022-09-29T09:17:06 IST" name="TC003_ValidateAlarmDeviceFilter" finished-at="2022-09-29T09:17:14 IST" duration-ms="8002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC003_ValidateAlarmDeviceFilter -->
+        <test-method signature="TC004_ValidateAlarmDeviceGroupFilter()[pri:3, instance:com.Workspace.testcases.MultiSence_WorkSpace_Alarms_Myworkgroupsalarms@6256ac4f]" started-at="2022-09-29T09:17:14 IST" name="TC004_ValidateAlarmDeviceGroupFilter" finished-at="2022-09-29T09:17:22 IST" duration-ms="7660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC004_ValidateAlarmDeviceGroupFilter -->
+        <test-method signature="TC005_ValidateAlarmDuedateFilter()[pri:4, instance:com.Workspace.testcases.MultiSence_WorkSpace_Alarms_Myworkgroupsalarms@6256ac4f]" started-at="2022-09-29T09:17:22 IST" name="TC005_ValidateAlarmDuedateFilter" finished-at="2022-09-29T09:17:46 IST" duration-ms="24072" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//*[@class='x-grid-cell x-grid-td x-grid-cell-headerId-alarms-grid-due-date'])[1]"}
+  (Session info: chrome=106.0.5249.62)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'AVDCINDED-7', ip: '10.72.85.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [117b5f28ec05dc8f0d4dbf0f94936082, findElement {using=xpath, value=(//*[@class='x-grid-cell x-grid-td x-grid-cell-headerId-alarms-grid-due-date'])[1]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 106.0.5249.62, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\H524070\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55069}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55069/devtoo..., se:cdpVersion: 106.0.5249.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 117b5f28ec05dc8f0d4dbf0f94936082]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//*[@class='x-grid-cell x-grid-td x-grid-cell-headerId-alarms-grid-due-date'])[1]"}
+  (Session info: chrome=106.0.5249.62)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'AVDCINDED-7', ip: '10.72.85.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [117b5f28ec05dc8f0d4dbf0f94936082, findElement {using=xpath, value=(//*[@class='x-grid-cell x-grid-td x-grid-cell-headerId-alarms-grid-due-date'])[1]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 106.0.5249.62, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\H524070\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55069}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55069/devtoo..., se:cdpVersion: 106.0.5249.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 117b5f28ec05dc8f0d4dbf0f94936082
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+at com.Workspace.pages.AlarmsSelectionPage.DueDateValidation(AlarmsSelectionPage.java:316)
+at com.Workspace.pages.AlarmsSelectionPage.selectFilterAndValidateValue(AlarmsSelectionPage.java:114)
+at com.Workspace.testcases.MultiSence_WorkSpace_Alarms_Myworkgroupsalarms.TC005_ValidateAlarmDuedateFilter(MultiSence_WorkSpace_Alarms_Myworkgroupsalarms.java:52)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC005_ValidateAlarmDuedateFilter -->
+        <test-method signature="TC006_ValidateAlarmStatusFilter()[pri:5, instance:com.Workspace.testcases.MultiSence_WorkSpace_Alarms_Myworkgroupsalarms@6256ac4f]" started-at="2022-09-29T09:17:46 IST" name="TC006_ValidateAlarmStatusFilter" finished-at="2022-09-29T09:17:55 IST" duration-ms="9055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC006_ValidateAlarmStatusFilter -->
+        <test-method signature="TC007_ValidateAlarmClearedFilter()[pri:6, instance:com.Workspace.testcases.MultiSence_WorkSpace_Alarms_Myworkgroupsalarms@6256ac4f]" started-at="2022-09-29T09:17:56 IST" name="TC007_ValidateAlarmClearedFilter" finished-at="2022-09-29T09:18:04 IST" duration-ms="8828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC007_ValidateAlarmClearedFilter -->
+        <test-method signature="TC008_ValidateAlarmWorkgroupFilter()[pri:7, instance:com.Workspace.testcases.MultiSence_WorkSpace_Alarms_Myworkgroupsalarms@6256ac4f]" started-at="2022-09-29T09:18:05 IST" name="TC008_ValidateAlarmWorkgroupFilter" finished-at="2022-09-29T09:18:13 IST" duration-ms="8761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC008_ValidateAlarmWorkgroupFilter -->
+        <test-method signature="TC009_ValidateAlarmUserFilter()[pri:8, instance:com.Workspace.testcases.MultiSence_WorkSpace_Alarms_Myworkgroupsalarms@6256ac4f]" started-at="2022-09-29T09:18:14 IST" name="TC009_ValidateAlarmUserFilter" finished-at="2022-09-29T09:18:33 IST" duration-ms="19442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC009_ValidateAlarmUserFilter -->
+        <test-method signature="TC010_ValidateAlarmReasonFilter()[pri:9, instance:com.Workspace.testcases.MultiSence_WorkSpace_Alarms_Myworkgroupsalarms@6256ac4f]" started-at="2022-09-29T09:18:33 IST" name="TC010_ValidateAlarmReasonFilter" finished-at="2022-09-29T09:18:40 IST" duration-ms="7326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC010_ValidateAlarmReasonFilter -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Workspace.testcases.MultiSence_WorkSpace_Alarms_Myworkgroupsalarms@6256ac4f]" started-at="2022-09-29T09:18:41 IST" name="tearDown" finished-at="2022-09-29T09:18:45 IST" duration-ms="4079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Workspace.testcases.MultiSence_WorkSpace_Alarms_Myworkgroupsalarms -->
+    </test> <!-- Connexo_RegressionTest_Automation_Suite chrome -->
+  </suite> <!-- Connexo_RegressionTest_Automation_Suite -->
+</testng-results>
